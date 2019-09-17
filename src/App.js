@@ -7,8 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className='CenterText' align='left'>
+          Collaboration between businesses and influencers with ease.
+        </p>
+        <p className='SubCenterText' align='left'>
+          Join Promo today
         </p>
         <a
           className="App-link"
@@ -18,6 +21,13 @@ function App() {
         >
           Learn React
         </a>
+      </header>
+      <header className="BottomBanner">
+        <div class="row">
+          <div class="column">poop</div>
+          <div class="column">test</div>
+          <div class="column">testtttt</div>
+        </div>
       </header>
     </div>
   );
